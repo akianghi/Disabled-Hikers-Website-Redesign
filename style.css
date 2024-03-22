@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 /*Global Styles*/
@@ -40,8 +41,76 @@ footer p {
 
 /* About Page styles */
 .about {
-    /* Add styles specific to the about page */
-}
+    h1{
+        text-align: center;
+    }
+    .top_quote {
+        text-align: center;
+        font-size: 14pt;
+    }
+    .background_header{
+        justify-content: center
+    }
+    .story {
+        text-align: center;
+        padding-block-end: 1cm
+    }
+    .team_container {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto; 
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        padding-block-end: 1cm;
+    }
+
+    .board_container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows:auto auto auto auto;
+        justify-content: center;
+        align-content: center;
+        text-align: center; 
+        padding-block-end: 1cm;
+
+    }
+    .impact_container{
+        display: grid;
+        grid-template-rows: 100px ;
+        grid-template-columns: 200px 200px 200px 200px 200px 200px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        font-size: 12pt;
+        padding-block-end: 2cm;
+    }
+    .button{
+        background-color: #D77028;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        }
+    .footer{
+        text-align: center;
+        font-size: 12pt;
+        background: #345223;
+    }
+    .support{
+        text-align: center;
+    }
+    p.footer{
+        text-align: left;
+        color: white;
+    }
+    }
+
 
 
 /* Community Page styles */
