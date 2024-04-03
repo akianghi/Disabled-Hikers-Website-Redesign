@@ -266,11 +266,12 @@ footer p {
         text-align: center; 
         column-gap: 100px;
         row-gap: 25px;
-        background: #88bf69;
+        background: #345223;
         padding: 50px;
+        color: white;
     }
     .board-title{
-        background: #88bf69;
+        background: #345223;
     }
     .color-heading{
         background: #FEFAE0;
@@ -358,14 +359,14 @@ footer p {
         font-size: 17pt;
     }
     .p-text{
-        color: white;
+        color: #DDA15E;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
         padding-right: 40px;
     }
     
     .p-text:hover{
-        color: white;
+        color: #DDA15E;
         font-weight: bold;
     }  
     }
